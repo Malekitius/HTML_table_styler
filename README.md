@@ -7,7 +7,7 @@ The TableStyler class is designed to style and display a Pandas DataFrame in an 
 #### __init__(self, table_name='', default='MediumSeaGreen', yellow='khaki', red='salmon', css_styles='styles.css', round_param=2)
 
 - Parameters:
-  - table_name: (str, optional) The name to be displayed as an <h1> heading above the table.
+  - table_name: (str, optional) The name to be displayed as an h1 heading above the table.
   - default: (str, optional) The default background color for cells in the absence of specific conditions.
   - yellow: (str, optional) The background color for cells that meet the yellow threshold condition.
   - red: (str, optional) The background color for cells that meet the red threshold condition.
